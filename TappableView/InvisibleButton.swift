@@ -7,7 +7,13 @@ class InvisibleButton: UIButton {
 
     override var isHighlighted: Bool {
         didSet {
-            backgroundColor = isHighlighted ? hilightedColor : UIColor.clear
+            if isHighlighted {
+                backgroundColor = hilightedColor
+            } else {
+                UIView.animate(withDuration: 0.2, animations: {[unowned self] in
+                    self.backgroundColor = UIColor.clear
+                })
+            }
         }
     }
 
