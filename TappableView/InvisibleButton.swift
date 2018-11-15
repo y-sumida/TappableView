@@ -31,6 +31,8 @@ class InvisibleButton: UIButton {
         super.setTitle(nil, for: .highlighted)
         super.setImage(nil, for: .normal)
         super.setImage(nil, for: .highlighted)
+        super.setBackgroundImage(nil, for: .normal)
+        super.setBackgroundImage(nil, for: .highlighted)
     }
 
     override func setTitle(_ title: String?, for state: UIControl.State) {
@@ -38,6 +40,10 @@ class InvisibleButton: UIButton {
     }
 
     override func setImage(_ image: UIImage?, for state: UIControl.State) {
+        // 無効化する
+    }
+
+    override func setBackgroundImage(_ image: UIImage?, for state: UIControl.State) {
         // 無効化する
     }
 }
