@@ -12,6 +12,7 @@
 		A925291D219DB97800BD5103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A925291B219DB97800BD5103 /* Main.storyboard */; };
 		A925291F219DB97900BD5103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A925291E219DB97900BD5103 /* Assets.xcassets */; };
 		A9252922219DB97900BD5103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9252920219DB97900BD5103 /* LaunchScreen.storyboard */; };
+		A925292A219DBAD700BD5103 /* InvisibleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9252929219DBAD700BD5103 /* InvisibleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A925291E219DB97900BD5103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9252921219DB97900BD5103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9252923219DB97900BD5103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9252929219DBAD700BD5103 /* InvisibleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvisibleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A9252917219DB97800BD5103 /* AppDelegate.swift */,
 				A9252919219DB97800BD5103 /* ViewController.swift */,
+				A9252929219DBAD700BD5103 /* InvisibleButton.swift */,
 				A925291B219DB97800BD5103 /* Main.storyboard */,
 				A925291E219DB97900BD5103 /* Assets.xcassets */,
 				A9252920219DB97900BD5103 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				A925291A219DB97800BD5103 /* ViewController.swift in Sources */,
 				A9252918219DB97800BD5103 /* AppDelegate.swift in Sources */,
+				A925292A219DBAD700BD5103 /* InvisibleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
