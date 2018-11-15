@@ -29,9 +29,15 @@ class InvisibleButton: UIButton {
     private func commonInit() {
         super.setTitle(nil, for: .normal)
         super.setTitle(nil, for: .highlighted)
+        super.setImage(nil, for: .normal)
+        super.setImage(nil, for: .highlighted)
     }
 
     override func setTitle(_ title: String?, for state: UIControl.State) {
+        // 無効化する
+    }
+
+    override func setImage(_ image: UIImage?, for state: UIControl.State) {
         // 無効化する
     }
 }
